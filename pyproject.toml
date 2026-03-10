@@ -1,0 +1,33 @@
+[project]
+name = "signnow-mcp"
+version = "0.1.0"
+description = "Unofficial MCP server for airSlate SignNow — upload documents, send signing invites, track status, download signed PDFs"
+authors = [
+    {name = "MusicTech Lab", email = "hello@musictechlab.io"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["mcp", "signnow", "e-signature", "esignature", "claude"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business",
+]
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "httpx>=0.28.0,<0.29.0",
+    "python-dotenv>=1.0.0,<2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/musictechlab/signnow-mcp"
+Issues = "https://github.com/musictechlab/signnow-mcp/issues"
+
+[tool.poetry]
+packages = [{include = "signnow_mcp", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
