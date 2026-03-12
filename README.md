@@ -6,6 +6,8 @@ Upload documents, send signing invites, check status, download signed PDFs, and 
 
 > **Note:** This is a community project and is not affiliated with or endorsed by airSlate SignNow.
 
+![SignNow MCP in action — listing documents from Claude Code](docs/signnow-mcp-demo.webp)
+
 ## Tools
 
 | Tool | Description |
