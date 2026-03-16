@@ -1,5 +1,8 @@
 # signnow-mcp
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/musictechlab/signnow-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/musictechlab/signnow-mcp/actions/workflows/ci.yml)
+
 Unofficial [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) server for [airSlate SignNow](https://www.signnow.com/) e-signatures.
 
 Upload documents, send signing invites, check status, download signed PDFs, and manage templates - all from Claude Code or any MCP-compatible client.
@@ -108,6 +111,26 @@ poetry run python -m signnow_mcp.server
 - [MCP specification](https://modelcontextprotocol.io/)
 - [SignNow API docs](https://docs.signnow.com/)
 
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
+
+## Security
+
+To report a vulnerability, please see [SECURITY.md](SECURITY.md).
+
 ## License
 
 MIT - see [LICENSE](LICENSE) for details.
+
+---
+
+<div align="center">
+  MusicTech Lab - Rockstars Developers dedicated to the Music Industry<br>
+  <a href="https://musictechlab.io">Website</a>
+  <span> | </span>
+  <a href="https://linkedin.com/company/musictechlab">LinkedIn</a>
+  <span> | </span>
+  <a href="https://musictechlab.io/contact">Let's talk</a><br>
+  Crafted by <a href="https://musictechlab.io">musictechlab.io</a>
+</div>
