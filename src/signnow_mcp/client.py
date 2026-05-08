@@ -260,7 +260,7 @@ class SignNowClient:
 
         with httpx.Client(timeout=30.0) as http:
             resp = http.post(
-                f"{self.base_url}/v2/events",
+                f"{self.base_url}/api/v2/events",
                 headers={
                     **self._auth_headers(),
                     "Content-Type": "application/json",
