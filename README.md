@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![CI](https://github.com/musictechlab/signnow-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/musictechlab/signnow-mcp/actions/workflows/ci.yml)
+[![Built by MusicTech Lab](https://musictechlab.io/oss/build-by-musictechlab.io.svg)](https://musictechlab.io)
 
 Unofficial [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) server for [airSlate SignNow](https://www.signnow.com/) e-signatures.
 
